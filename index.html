@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#070707">
+  <meta name="description" content="Nos Bastidores — Emylly, 21 voltas de uma história linda.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Nos Bastidores | Emylly — 21 voltas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <canvas id="smokeCanvas" aria-hidden="true"></canvas>
+  <div class="page-grid" aria-hidden="true"></div>
+  <div class="speed-lines" aria-hidden="true"></div>
 
+  <!-- ABERTURA -->
+  <section id="intro" class="intro">
+    <div class="intro-edition">
+      <span>EDIÇÃO 21</span>
+      <span>ARQUIVO PESSOAL</span>
+    </div>
+
+    <div class="intro-layout">
+      <div class="big-number" aria-hidden="true">21</div>
+
+      <div class="intro-copy">
+        <div id="startingLights" class="starting-lights" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <p class="eyebrow">JORNALISMO · FÓRMULA 1 · DRIFT · MEMÓRIAS</p>
+        <h1>NOS <em>BASTIDORES</em></h1>
+        <p class="intro-title">Emylly — 21 voltas de uma história linda.</p>
+        <p class="intro-byline">Uma história escrita por quem cresceu ao seu lado.</p>
+
+        <button id="enterButton" class="main-button" type="button">
+          <span>Entrar nos bastidores</span>
+          <strong aria-hidden="true">→</strong>
+        </button>
+
+        <p id="introStatus" class="intro-status">A música começa depois do seu toque.</p>
+      </div>
+    </div>
+
+    <div class="intro-footer">
+      <span>SESSÃO: EMYLLY_21</span>
+      <span>MODO: MANUAL</span>
+      <span>EQUIPE: FAMÍLIA</span>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <main id="experience" class="experience" hidden>
+    <header class="topbar">
+      <div class="brand">
+        <span class="live-dot" aria-hidden="true"></span>
+        <div>
+          <strong>NOS BASTIDORES</strong>
+          <small>EDIÇÃO ESPECIAL · EMYLLY 21</small>
+        </div>
+      </div>
+
+      <div class="top-tools">
+        <span id="slideCounter" class="slide-counter">PARTE 01 / 07</span>
+        <button id="musicButton" class="tool-button" type="button">Pausar música</button>
+      </div>
+    </header>
+
+    <!-- Player oficial usado para a música escolhida. -->
+    <aside id="musicDock" class="music-dock" aria-label="Música Risk It All, de Bruno Mars">
+      <div class="music-copy">
+        <span>TOCANDO AGORA</span>
+        <strong>Risk It All</strong>
+        <small>Bruno Mars</small>
+      </div>
+      <iframe
+        id="musicFrame"
+        title="Risk It All — Bruno Mars"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </aside>
+
+    <div id="slides" class="slides" aria-live="polite">
+      <!-- VOLTA 1 -->
+      <section class="slide" data-part="VOLTA 01" aria-label="Volta 1 — Arquivo da infância">
+        <article class="story-card">
+          <div class="editorial">
+            <div class="editorial-meta">
+              <span>VOLTA 01</span>
+              <span>ARQUIVO 01–02</span>
+            </div>
+            <p class="section-tag">ONDE TUDO COMEÇOU</p>
+            <h2>Arquivo da <em>infância</em></h2>
+            <p class="deck">As primeiras páginas de uma história que continua sendo escrita.</p>
+
+            <div class="typewriter-box" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA VOLTA 1 -->
+            <p class="slide-source" hidden>Antes de eu entender o que significa ter uma irmã você já estava lá por mim mesmo desde pequeno te enxerguei como alguém que faria companhia para mim a vida inteira eu adorava brincar com você menos quando era aula eu odiava kkkk mais não é isso que quero dizer quero te agradecer por ter participado e me dado uma infância tão boa que nunca serei capaz de esquecer sempre gostei de ficar perto de você mesmo quando não me queria por perto por isso você sempre foi a minha melhor companhia</p>
+          </div>
+
+          <div class="photo-stage">
+            <div class="photo-grid two">
+              <figure class="photo-frame tilt-left">
+                <img data-photo="0" alt="Emylly e o irmão durante a infância">
+                <figcaption>ARQUIVO 01 · INFÂNCIA</figcaption>
+              </figure>
+              <figure class="photo-frame tilt-right">
+                <img data-photo="1" alt="Emylly e o irmão durante a infância">
+                <figcaption>ARQUIVO 02 · INFÂNCIA</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- VOLTA 2 -->
+      <section class="slide" data-part="VOLTA 02" aria-label="Volta 2 — Crescendo lado a lado">
+        <article class="story-card">
+          <div class="editorial">
+            <div class="editorial-meta">
+              <span>VOLTA 02</span>
+              <span>ARQUIVO 03–05</span>
+            </div>
+            <p class="section-tag">DOIS MUNDOS, UMA HISTÓRIA</p>
+            <h2>Crescendo <em>lado a lado</em></h2>
+            <p class="deck">Entre fases, mudanças e lembranças guardadas.</p>
+
+            <div class="typewriter-box" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA VOLTA 2 -->
+            <p class="slide-source" hidden>crescer com você muito das vezes foi um pouco complicado por causa da diferença de mundo e de gênero mais foi algo tão bom para mim poder ver você crescer amadurecer e ser torna alguém mais com compaixão eu sei que no meio da sua adolecência foi complicado para nois dois eu pensava oque eu fiz de errrado para ela ficar tão brava comigo ou às vezes até pensava que perderia minha melhor amiga mais eu posso enteder isso e nunca guardei rancor ou tristeza por tudo eu sabia no fundo que você era uma pessoa gentil e boa e não rebelde foi só uma fase da sua vida como qualquer uma mais eu quero que você saiba que todos os nossos momentos bobos e felizes estão guardados dentro do meu coração para sempre então por isso te agradeço por ter tido esse privilégio de crescer ao seu lado</p>
+          </div>
+
+          <div class="photo-stage">
+            <div class="photo-grid three">
+              <figure class="photo-frame feature">
+                <img data-photo="2" alt="Emylly e o irmão crescendo juntos">
+                <figcaption>ARQUIVO 03 · CRESCENDO</figcaption>
+              </figure>
+              <figure class="photo-frame">
+                <img data-photo="3" alt="Emylly e o irmão juntos">
+                <figcaption>ARQUIVO 04 · JUNTOS</figcaption>
+              </figure>
+              <figure class="photo-frame">
+                <img data-photo="4" alt="Uma memória de Emylly com o irmão">
+                <figcaption>ARQUIVO 05 · MEMÓRIAS</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- VOLTA 3 -->
+      <section class="slide" data-part="VOLTA 03" aria-label="Volta 3 — Entre curvas e memórias">
+        <article class="story-card">
+          <div class="editorial">
+            <div class="editorial-meta">
+              <span>VOLTA 03</span>
+              <span>ARQUIVO 06–07</span>
+            </div>
+            <p class="section-tag">MAIS PERTO DO QUE ANTES</p>
+            <h2>Entre curvas e <em>memórias</em></h2>
+            <p class="deck">As melhores saídas sempre foram sobre a companhia.</p>
+
+            <div class="typewriter-box" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA VOLTA 3 -->
+            <p class="slide-source" hidden>quando você começou a se torna ainda mais próxima de mim você não sabe como eu fiquei feliz ao saber que você queria estar mais perto de mim quando começamos a sair juntos foi os dias mais felizes da minha vida eu sempre amei e amo quando você me chama para sair eu me divirto tanto a sua presena ao meu lado me deixa tão feliz e animado eu espero de coração que eu tenha sido uma boa companhia para você também eu sei que às vezes sou grudento com você mais é meu jeitinho de dar carinho para as pessoas eu considero o abraço como um remédio para a alma e corpo fazendo relaxar e te deixar mais próximo das pessoas que você ama</p>
+          </div>
+
+          <div class="photo-stage">
+            <div class="photo-grid two portraits">
+              <figure class="photo-frame tilt-left">
+                <img data-photo="5" alt="Emylly e o irmão em uma fase marcante">
+                <figcaption>ARQUIVO 06 · ENTRE CURVAS</figcaption>
+              </figure>
+              <figure class="photo-frame tilt-right">
+                <img data-photo="6" alt="Emylly e o irmão juntos">
+                <figcaption>ARQUIVO 07 · COMPANHIA</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- VOLTA 4 -->
+      <section class="slide" data-part="VOLTA 04" aria-label="Volta 4 — Nós dois, do nosso jeito">
+        <article class="story-card">
+          <div class="editorial">
+            <div class="editorial-meta">
+              <span>VOLTA 04</span>
+              <span>ARQUIVO 08–09</span>
+            </div>
+            <p class="section-tag">NOS BASTIDORES DA NOSSA RELAÇÃO</p>
+            <h2>Nós dois, <em>do nosso jeito</em></h2>
+            <p class="deck">Implicâncias, influência e uma parceria que se tornou parte de quem somos.</p>
+
+            <div class="typewriter-box" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA VOLTA 4 -->
+            <p class="slide-source" hidden>pra ser sincero tati você é a pessoa favorita da minha vida além dos papais e madalena mesmo que às vezes você é chupeta comigo e dá umas brigadas comigo por uns motivos bestas mais eu tenho uma certeza eu não consigueria viver num mundo em que eu não tivesse a minha tati como companheira você é uma grande amiga e ver que hoje em dia somo bem mais próximos doque antigamente pra mim isso é tudo oque me importa sabe porque, porque sem você na minha vida eu não seria metade do homem que sou hoje em dia você sempre foi e sempre será uma das maiores influência na minha vida toda eu comecei a gostar de muitas coisas por causa de você muitas das músicas comecei a escutar por sua causa eu só entrei no mundo do automobilismo por sua causa tati pra ser sincero você é uma das pessoas que me inspira a ser um homem melhor e feliz nessa sociedade</p>
+          </div>
+
+          <div class="photo-stage">
+            <div class="photo-grid two">
+              <figure class="photo-frame tilt-right">
+                <img data-photo="7" alt="Emylly e o irmão mais velhos">
+                <figcaption>ARQUIVO 08 · PARCERIA</figcaption>
+              </figure>
+              <figure class="photo-frame tilt-left">
+                <img data-photo="8" alt="Emylly e o irmão mais velhos">
+                <figcaption>ARQUIVO 09 · NOSSO JEITO</figcaption>
+              </figure>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- VOLTA 5 -->
+      <section class="slide" data-part="VOLTA 05" aria-label="Volta 5 — O presente da nossa história">
+        <article class="story-card favorite-card">
+          <div class="editorial">
+            <div class="editorial-meta">
+              <span>VOLTA 05</span>
+              <span>FOTO FAVORITA</span>
+            </div>
+            <p class="section-tag">ORGULHO EM PRIMEIRA PÁGINA</p>
+            <h2>O presente da <em>nossa história</em></h2>
+            <p class="deck">A futura jornalista vista pelos olhos do irmão que sempre estará torcendo por ela.</p>
+
+            <div class="typewriter-box" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA VOLTA 5 -->
+            <p class="slide-source" hidden>O tamanho do orgulho que eu tenho por você não daria para escrever nem em mil linhas eu vejo cada conquista sua e fico muito feliz até quando é algo muito bobo e saber que você faz aquilo que você ama que é jornalismo enche meu peito felecidade ao pensar em que um dia irei poder ver minha irmã passando notícias para o brasil inteiro pra ser sincero quando esse dia acontecer eu não vou aguentar de tanta felicidade e eu sei que vou chorar pra cacete quando esse dia chegar porque eu irei ver não apenas a tati na tv mais a mulher forte e incrível que ela se tornou minha irmã emylly eu desjo tudo de bom para seu futuro e quero que saiba pra tudo oque precisar eu etsou aqui para você e apenas pra você</p>
+          </div>
+
+          <div class="photo-stage favorite-stage">
+            <figure class="photo-frame favorite-photo">
+              <img data-photo="9" alt="A foto favorita de Emylly com o irmão">
+              <figcaption>CAPA DA EDIÇÃO · MINHA FOTO FAVORITA</figcaption>
+            </figure>
+          </div>
+        </article>
+      </section>
+
+      <!-- VOLTA 6 -->
+      <section class="slide apology-slide" data-part="VOLTA 06" aria-label="Volta 6 — O que eu também preciso te dizer">
+        <article class="apology-card">
+          <div class="apology-line" aria-hidden="true"></div>
+          <div class="editorial-meta centered">
+            <span>VOLTA 06</span>
+            <span>SEM CÂMERAS · SEM FILTROS</span>
+          </div>
+          <p class="section-tag">UMA PAUSA SINCERA</p>
+          <h2>O que eu também <em>preciso te dizer</em></h2>
+
+          <div class="typewriter-box apology-text" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+            <p class="typewriter-text"></p>
+          </div>
+          <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+          <!-- TEXTO EXATO DA VOLTA 6 -->
+          <p class="slide-source" hidden>tati eu sei que muitas das vezes eu possa ter sido um babaca com você e todas as vezes quando isso acontece eu não consigo tirar da cabeça porque eu fiz com ela eu me sinto tão mal que não consigo fazer mais nada é um dos piores entimentos do mundo quando brigo com você eu peço o seu perdão para tudo oque eu fiz você sofrer ou chorar você sabe que é a coisa mais imporatante do meu mundo às vezes sou muito quieto a maioria das vezes como me perguntam sobre meus sentimentos eu vou falar a verdade para você eu não sei como falar meus sentimntos para as pessoas porque penso elas já se preucupam tanto comigo porque daria mais preucupação e tenho que adimitir eu já tive uma fase muito pesada em minha vida só que fiquei em silêncio porque eu via qua não precisava contar a ninguém e pra ser sincero eu nem sei porque ficava assim mais enfim tati eu juro que serei um irmão melhor para você</p>
+        </article>
+      </section>
+
+      <!-- FINAL -->
+      <section class="slide final-slide" data-part="ÚLTIMA PÁGINA" aria-label="Última página">
+        <article class="final-card">
+          <div class="final-copy">
+            <div class="editorial-meta centered">
+              <span>ÚLTIMA PÁGINA</span>
+              <span>BANDEIRADA FINAL</span>
+            </div>
+            <p class="section-tag">AS PRÓXIMAS VOLTAS AINDA SERÃO ESCRITAS</p>
+            <h2>21 voltas de uma <em>história linda</em></h2>
+
+            <div class="typewriter-box final-text" tabindex="0" role="button" aria-label="Toque para mostrar o texto inteiro">
+              <p class="typewriter-text"></p>
+            </div>
+            <p class="tap-hint">Toque no texto para revelar tudo</p>
+
+            <!-- TEXTO EXATO DA ÚLTIMA PÁGINA -->
+            <p class="slide-source" hidden>tati eu escolheria em todas minhas próximas vidas em ser seu irmão proque te amo tanto no fundo do meu coração que não seria capaz de me separar de você até em outras vidas imagina quem que me levaria para tomar soda italiana nos cafés tati eu espero que hoje seja um dia muito feliz para você e estou animado para poder te ver de noite e comer um dogão tati eu ta amo feliz aniversairo minha irmã</p>
+          </div>
+
+          <div class="language-rain" aria-live="polite">
+            <p id="languageLine"></p>
+          </div>
+
+          <div id="finalSignature" class="final-signature">
+            <span>EU TE AMO, IRMÃ.</span>
+            <strong>Emylly — 21 voltas de uma história linda.</strong>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer class="navigation">
+      <button id="backButton" class="nav-button" type="button">← Voltar</button>
+
+      <div class="progress-area">
+        <div class="progress-track">
+          <span id="progressFill"></span>
+        </div>
+        <div id="dots" class="dots" aria-label="Partes da história"></div>
+      </div>
+
+      <button id="nextButton" class="nav-button primary-nav" type="button">Avançar →</button>
+    </footer>
+  </main>
+
+  <noscript>Ative o JavaScript para abrir esta homenagem.</noscript>
+</body>
+</html>
